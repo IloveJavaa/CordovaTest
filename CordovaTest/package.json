@@ -1,0 +1,25 @@
+{
+  "name": "cordova-test",
+  "version": "0.0.1",
+  "description": "Testing",
+  "cordova": {
+    "id": "cordova-test",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IloveJavaa/CordovaTest.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "SanuGupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IloveJavaa/CordovaTest/issues"
+  },
+  "homepage": "https://github.com/IloveJavaa/CordovaTest#readme"
+}

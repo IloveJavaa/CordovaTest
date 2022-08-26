@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-test" version="0.0.1"
+	xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>CordovaTest</name>
+	<js-module name="CordovaTest" src="www/CordovaTest.js">
+		<clobbers target="cordova.plugins.CordovaTest" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="CordovaTest">
+				<param name="android-package" value="cordova-test.CordovaTest" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
+		<source-file src="src/android/CordovaTest.java" target-dir="src/cordova-test/CordovaTest" />
+	</platform>
+</plugin>
